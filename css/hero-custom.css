@@ -3,7 +3,6 @@
       float: left;
       width: 50%;
       height:100vh;
-      font-family: 'Quicksand', sans-serif;
       overflow: hidden;
     }
 }
@@ -13,4 +12,12 @@
     content: "";
     display: table;
     clear: both;
+}
+
+.hero-text {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
 }
