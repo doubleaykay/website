@@ -2,7 +2,9 @@
     .hero-custom-column {
       float: left;
       width: 50%;
+      height:100vh;
       font-family: 'Quicksand', sans-serif;
+      overflow: hidden;
     }
 }
 
