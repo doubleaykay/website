@@ -1,0 +1,13 @@
+@media (min-width: 600px) {
+    .hero-custom-column {
+      float: left;
+      width: 50%;
+    }
+}
+
+/* Clear floats after the columns */
+.hero-custom:after {
+    content: "";
+    display: table;
+    clear: both;
+}
