@@ -1,5 +1,5 @@
 @media (min-width: 600px) {
-    .hero-custom-column {
+    .hero-column {
       float: left;
       width: 50%;
       height:100vh;
@@ -8,7 +8,7 @@
 }
 
 @media (max-width: 600px) {
-    .hero-custom-column {
+    .hero-column {
       width: 100%;
       height: 100vh;
       overflow: hidden;
@@ -16,7 +16,7 @@
 }
 
 /* Clear floats after the columns */
-.hero-custom:after {
+.hero:after {
     content: "";
     display: table;
     clear: both;
@@ -27,5 +27,5 @@
   top: 50%;
   transform: translateY(-50%);
   font-family: 'Quicksand', sans-serif;
-  text-align: center;
+  padding-left: 70px;
 }
