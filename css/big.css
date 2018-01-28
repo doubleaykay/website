@@ -2,7 +2,6 @@
   float: left;
   width: 50%;
   height:100vh;
-  overflow: hidden;
 }
 
 /* Clear floats after the columns */
@@ -13,11 +12,9 @@
 }
 
 .hero-text {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
   font-family: 'Quicksand', sans-serif;
-  padding-left: 70px;
+  padding-left: 25px;
+  padding-top: 25px;
 }
 
 /*style hero image*/
@@ -25,6 +22,19 @@
     width: 100%;
     height: inherit;
     object-fit: cover;
+}
+
+.hero-h1 {
+  font-size: 3em;
+}
+
+.hero-p {
+  font-size: 1.5em;
+}
+
+.hero-p-old {
+  font-size: 1.5em;
+  color: LightGrey;
 }
 
 /*remove margins from body*/
