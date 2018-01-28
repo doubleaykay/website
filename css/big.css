@@ -20,13 +20,15 @@
   padding-left: 70px;
 }
 
-body {
-   margin: 0;
-   padding: 0;
-}
-
+/*style hero image*/
 .hero-img {
     width: 100%;
     height: inherit;
     object-fit: cover;
+}
+
+/*remove margins from body*/
+body {
+   margin: 0;
+   padding: 0;
 }
