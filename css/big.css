@@ -24,3 +24,9 @@ body {
    margin: 0;
    padding: 0;
 }
+
+.hero-img {
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+}
