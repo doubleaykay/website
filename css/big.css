@@ -37,6 +37,26 @@
   color: LightGrey;
 }
 
+a.hero-link-mm:link {
+  text-decoration: none;
+  color: LightGrey;
+}
+
+a.hero-link-mm:visited {
+  text-decoration: none;
+  color: LightGrey;
+}
+
+a.hero-link-mm:hover {
+  text-decoration: none;
+  color: Black;
+}
+
+a.hero-link-mm:active {
+  text-decoration: none;
+  color: Black;
+}
+
 /*remove margins from body*/
 body {
    margin: 0;
