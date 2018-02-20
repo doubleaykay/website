@@ -4,6 +4,11 @@ body {
   padding: 0;
 }
 
+.break {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
 .hero-column-left {
   float: left;
   width: 50%;
@@ -34,8 +39,7 @@ body {
   font-family: 'Quicksand', sans-serif;
   padding-left: 25px;
   padding-top: 25px;
-  height: inherit;
-  opacity: 1;
+  padding-bottom: 25px;
 }
 
 /*style hero image*/
@@ -125,5 +129,8 @@ a.hero-link-dart:active {
   font-family: 'Quicksand', sans-serif;
   padding-left: 25px;
   padding-top: 25px;
-  height: inherit;
+}
+
+.about-me-h1 {
+  font-size: 1.5em;
 }
