@@ -1,0 +1,64 @@
+.hero-column {
+  float: left;
+  width: 50%;
+  height:100vh;
+}
+
+/* Clear floats after the columns */
+.hero:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.hero-text {
+  font-family: 'Quicksand', sans-serif;
+  padding-left: 25px;
+  padding-top: 25px;
+}
+
+/*style hero image*/
+.hero-img {
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+}
+
+.hero-h1 {
+  font-size: 3em;
+}
+
+.hero-p {
+  font-size: 1.5em;
+}
+
+.hero-p-old {
+  font-size: 1.5em;
+  color: LightGrey;
+}
+
+a.hero-link-mm:link {
+  text-decoration: none;
+  color: LightGrey;
+}
+
+a.hero-link-mm:visited {
+  text-decoration: none;
+  color: LightGrey;
+}
+
+a.hero-link-mm:hover {
+  text-decoration: none;
+  color: Black;
+}
+
+a.hero-link-mm:active {
+  text-decoration: none;
+  color: Black;
+}
+
+/*remove margins from body*/
+body {
+   margin: 0;
+   padding: 0;
+}
