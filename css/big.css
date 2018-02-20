@@ -9,6 +9,10 @@ body {
   padding-right: 25px;
 }
 
+hr {
+  border-color: #2196F3;
+}
+
 .hero-column-left {
   float: left;
   width: 50%;
@@ -51,6 +55,7 @@ body {
 
 .hero-h1 {
   font-size: 3em;
+  color: #2196F3;
 }
 
 .hero-p {
