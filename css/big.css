@@ -1,4 +1,21 @@
-.hero-column {
+body {
+overflow:hidden
+}
+
+.hero-column-left {
+  float: left;
+  width: 50%;
+  height:100vh;
+  overflow:scroll;
+  -ms-overflow-style: none;  // IE 10+
+  overflow: -moz-scrollbars-none;  // Firefox
+}
+
+.hero-column-left::-webkit-scrollbar {
+    display: none;  // Safari and Chrome
+}
+
+.hero-column-right {
   float: left;
   width: 50%;
   height:100vh;
