@@ -140,3 +140,9 @@ a.hero-link-dart:active {
   font-size: 1.3em;
   font-weight: normal;
 }
+
+.about-me-fa {
+  font-size: 1.75em;
+  color: black;
+  text-decoration: none;
+}
