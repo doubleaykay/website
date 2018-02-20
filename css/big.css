@@ -1,5 +1,7 @@
 body {
-overflow:hidden
+  overflow:hidden;
+  margin: 0;
+  padding: 0;
 }
 
 .hero-column-left {
@@ -32,6 +34,8 @@ overflow:hidden
   font-family: 'Quicksand', sans-serif;
   padding-left: 25px;
   padding-top: 25px;
+  height: inherit;
+  opacity: 1;
 }
 
 /*style hero image*/
@@ -117,8 +121,9 @@ a.hero-link-dart:active {
   color: #00693E;
 }
 
-/*remove margins from body*/
-body {
-   margin: 0;
-   padding: 0;
+.about-me {
+  font-family: 'Quicksand', sans-serif;
+  padding-left: 25px;
+  padding-top: 25px;
+  height: inherit;
 }
