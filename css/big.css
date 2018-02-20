@@ -50,11 +50,54 @@ a.hero-link-mm:visited {
 a.hero-link-mm:hover {
   text-decoration: none;
   color: Black;
+  font-weight: bold;
 }
 
 a.hero-link-mm:active {
   text-decoration: none;
   color: Black;
+}
+
+a.hero-link-biogen:link {
+  text-decoration: none;
+  color: LightGrey;
+}
+
+a.hero-link-biogen:visited {
+  text-decoration: none;
+  color: LightGrey;
+}
+
+a.hero-link-biogen:hover {
+  text-decoration: none;
+  color: #2573BA;
+  font-weight: bold;
+}
+
+a.hero-link-biogen:active {
+  text-decoration: none;
+  color: #2573BA;
+}
+
+a.hero-link-dart:link {
+  text-decoration: none;
+  color: Black;
+}
+
+a.hero-link-dart:visited {
+  text-decoration: none;
+  color: Black;
+}
+
+a.hero-link-dart:hover {
+  text-decoration: none;
+  color: #00693E;
+  font-weight: bold;
+}
+
+a.hero-link-dart:active {
+  text-decoration: none;
+  color: #00693E;
 }
 
 /*remove margins from body*/
