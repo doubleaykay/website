@@ -65,17 +65,17 @@ hr {
 
 .hero-p-old {
   font-size: 1.5em;
-  color: LightGrey;
+  color: Grey;
 }
 
 a.hero-link-mm:link {
   text-decoration: none;
-  color: LightGrey;
+  color: Grey;
 }
 
 a.hero-link-mm:visited {
   text-decoration: none;
-  color: LightGrey;
+  color: Grey;
 }
 
 a.hero-link-mm:hover {
@@ -91,12 +91,12 @@ a.hero-link-mm:active {
 
 a.hero-link-biogen:link {
   text-decoration: none;
-  color: LightGrey;
+  color: Grey;
 }
 
 a.hero-link-biogen:visited {
   text-decoration: none;
-  color: LightGrey;
+  color: Grey;
 }
 
 a.hero-link-biogen:hover {
@@ -155,4 +155,8 @@ a.hero-link-dart:active {
 
 #toggle:hover {
   font-weight: bold;
+}
+
+#old {
+  display: none;
 }
