@@ -1,3 +1,7 @@
-hr {
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.break {
   display: none;
 }
